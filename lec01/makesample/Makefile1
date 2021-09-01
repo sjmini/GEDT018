@@ -9,7 +9,7 @@ my_memo.o: my_memo.cc
 my_cal.o: my_cal.cc
 	g++ -W -Wall -c -o my_cal.o my_cal.cc
 
-main.o: main.c
+main.o: main.cc
 	g++ -W -Wall -c -o main.o main.cc
 
 clean:
