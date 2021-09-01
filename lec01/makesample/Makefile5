@@ -1,0 +1,15 @@
+CC=clang++
+CXXFLAGS=-W -Wall
+TARGET=todo
+
+all: $(TARGET)
+
+SRCS=$(wildcard *.cc)	# my_memo.c my_cal.c main.c
+OBJS=$(SRCS:.c=.o)	# my_memo.o my_cal.o main.o
+
+todo: $(OBJS)
+	$(CC) $(CXXFLAGS) -o $@ $^
+
+clean:
+	rm -rf *.o todo
+
