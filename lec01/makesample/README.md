@@ -14,5 +14,5 @@ $ make
 If you do not have `make` in your machine,
 please install necessary files with the following:
 
-$ sudo apt-get install build-essential
+`$ sudo apt-get install build-essential`
 
