@@ -2,7 +2,7 @@
 
 int bool_test()
 {
-	int flag = true;
+	bool flag = true;
 
 	if(flag)
 		std::cout<<"true"<<std::endl;
